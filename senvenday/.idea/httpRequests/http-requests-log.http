@@ -1,0 +1,42 @@
+POST http://test.sinoecare.net/channel/appChannelController/weChatQueryXzqh
+Accept: */*
+Cache-Control: no-cache
+
+"channelId"="YL42"&"xzqhCode"="420000"
+
+###
+
+POST http://test.sinoecare.net/channel/appChannelController/weChatQueryXzqh?xzqhCode=420000&sign=wa93w5l55w1t545a22atw42515a2a5ga&channelId=YL42
+Accept: */*
+Cache-Control: no-cache
+
+"channelId":"YL42"
+
+###
+
+POST http://test.sinoecare.net/channel/appChannelController/weChatQueryXzqh?xzqhCode=420000&sign=wa93w5l55w1t545a22atw42515a2a5ga&channelId=YL42
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://test.sinoecare.net/channel/appChannelController/weChatQueryXzqh?xzqhCode=420000&sign=wa93w5l55w1t545a22atw42515a2a5ga
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://test.sinoecare.net/channel/appChannelController/weChatQueryXzqh?xzqhCode=420000
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://test.sinoecare.net/channel/appChannelController/weChatQueryXzqh
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-08T012419.200.html
+
+###
+
